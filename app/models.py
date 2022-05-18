@@ -40,17 +40,14 @@ class Order(BaseModel):
     @property
     def get_total_usd(self) -> Optional[float]:
         service = DolarSiService.build()
+        usd_value = service.get_usd_value(usd_type=USDType.BLUE)
+
         amount = self.get_total
 
-        if amount is None:
+        if amount is None or usd_value is None:
             return None
 
-        total_usd = service.calculate_total_usd(
-            amount=amount,
-            usd_type=USDType.BLUE
-        )
-
-        return total_usd
+        return round(amount / usd_value, 2)
 
     def __str__(self):
         return str(self.date_time)

@@ -70,18 +70,6 @@ class DolarSiService:
             parser=DolarSiParser()
         )
 
-    def calculate_total_usd(
-            self,
-            amount: float,
-            usd_type: USDType,
-    ) -> Optional[float]:
-        usd_value = self.get_usd_value(usd_type)
-
-        if usd_value is None:
-            return None
-
-        return round(amount / usd_value, 2)
-
     def get_usd_value(
             self,
             usd_type: USDType,
