@@ -15,3 +15,5 @@ static/
 .coverage
 .pytest*
 /htmlcov/
+
+.idea
