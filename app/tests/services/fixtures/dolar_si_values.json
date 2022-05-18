@@ -1,0 +1,106 @@
+[
+  {
+    "casa": {
+      "compra": "117,27",
+      "venta": "123,27",
+      "agencia": "349",
+      "nombre": "Dolar Oficial",
+      "variacion": "0",
+      "ventaCero": "TRUE",
+      "decimales": "2"
+    }
+  },
+  {
+    "casa": {
+      "compra": "204,00",
+      "venta": "207,00",
+      "agencia": "310",
+      "nombre": "Dolar Blue",
+      "variacion": "0,98",
+      "ventaCero": "TRUE",
+      "decimales": "2"
+    }
+  },
+  {
+    "casa": {
+      "compra": "No Cotiza",
+      "venta": "0",
+      "agencia": "311",
+      "nombre": "Dolar Soja",
+      "variacion": "0",
+      "ventaCero": "TRUE",
+      "decimales": "3"
+    }
+  },
+  {
+    "casa": {
+      "compra": "209,04",
+      "venta": "216,41",
+      "agencia": "312",
+      "nombre": "Dolar Contado con Liqui",
+      "variacion": "3,95",
+      "ventaCero": "TRUE",
+      "decimales": "2"
+    }
+  },
+  {
+    "casa": {
+      "compra": "210,570",
+      "venta": "210,180",
+      "agencia": "313",
+      "nombre": "Dolar Bolsa",
+      "variacion": "-0,290",
+      "ventaCero": "TRUE",
+      "decimales": "3"
+    }
+  },
+  {
+    "casa": {
+      "compra": "9.852,070",
+      "venta": "0",
+      "agencia": "399",
+      "nombre": "Bitcoin",
+      "variacion": "-100,00",
+      "ventaCero": "TRUE",
+      "decimales": "3"
+    }
+  },
+  {
+    "casa": {
+      "nombre": "Dolar turista",
+      "compra": "No Cotiza",
+      "venta": "203,40",
+      "agencia": "406",
+      "variacion": "0",
+      "ventaCero": "TRUE",
+      "decimales": "2"
+    }
+  },
+  {
+    "casa": {
+      "compra": "115,46",
+      "venta": "123,03",
+      "agencia": "302",
+      "nombre": "Dolar",
+      "decimales": "3"
+    }
+  },
+  {
+    "casa": {
+      "nombre": "Argentina",
+      "compra": "1.912,00",
+      "venta": "-0,78",
+      "mejor_compra": "True",
+      "mejor_venta": "False",
+      "fecha": "05/05/15",
+      "recorrido": "16:30",
+      "afluencia": {
+
+      },
+      "agencia": "141",
+      "observaciones": {
+
+      }
+    }
+  }
+]

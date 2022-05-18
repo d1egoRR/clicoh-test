@@ -1,0 +1,17 @@
+*.sqlite3
+*.py[cod]
+
+__pycache__
+
+local_settings.py
+
+static/
+
+/staticfiles
+/venv
+
+.vscode/
+
+.coverage
+.pytest*
+/htmlcov/
