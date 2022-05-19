@@ -4,7 +4,7 @@
 
 1. [Instalación](#1-instalación)
 2. [Ejecutar](#2-ejecutar)
-3. [Ejecutar Tests](#4-ejecutar-Tests)
+3. [Ejecutar Tests](#3-ejecutar-Tests)
 
 
 ### 1. Instalación ###
